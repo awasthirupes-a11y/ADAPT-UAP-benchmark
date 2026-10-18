@@ -1,0 +1,7 @@
+comparison,architecture,mean_diff_pp,ci95_lo,ci95_hi,test,statistic,p,holm_p,wilcoxon_exact_p,seeds_ahead,per_seed_diffs_s0_to_s4
+TRM-UAP minus GD-UAP (primary),ResNet-152,0.0196,-0.1220,0.1612,"Wilcoxon signed-rank, one-sided, exact","W+=8, W-=7",0.5000,,0.5000,2/5,+0.092 -0.046 +0.174 -0.114 -0.008
+ADAPT-UAP minus FFF,AlexNet,0.5364,-0.0286,1.1014,"paired t (df=4), two-sided",2.6361,0.0578,0.1734,0.0625,5/5,+0.410 +0.406 +0.330 +0.200 +1.336
+ADAPT-UAP minus GD-UAP,AlexNet,0.5756,-0.1094,1.2606,"paired t (df=4), two-sided",2.3329,0.0800,0.1734,0.0625,5/5,+0.626 +0.650 +0.088 +0.084 +1.430
+ADAPT-UAP minus Cosine-UAP,AlexNet,15.4984,13.2018,17.7950,"paired t (df=4), two-sided",18.7363,0.0000,0.0002,0.0625,5/5,+16.028 +15.992 +12.686 +15.042 +17.744
+ADAPT-UAP minus TRM-UAP,AlexNet,0.5440,-0.1395,1.2275,"paired t (df=4), two-sided",2.2097,0.0917,0.1734,0.0625,5/5,+0.330 +0.348 +0.262 +0.254 +1.526
+ADAPT-UAP minus PSP-UAP,AlexNet,0.8188,0.3362,1.3014,"paired t (df=4), two-sided",4.7111,0.0092,0.0369,0.0625,5/5,+0.896 +0.964 +0.436 +0.442 +1.356
